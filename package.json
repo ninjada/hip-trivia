@@ -9,7 +9,7 @@
   },
   "license": "Apache 2.0",
   "engines": {
-    "node": "^0.12.7"
+    "node": "^0.12.14"
   },
   "scripts": {
     "web": "node --harmony web.js",
@@ -17,11 +17,11 @@
     "tunnel": "./ngrok http 3000"
   },
   "development": {
-    "localBaseUrl": "https://0a8f1e7d.ngrok.io",
+    "localBaseUrl": "https://b9764c06.ngrok.io",
     "port": 3000
   },
   "production": {
-    "localBaseUrl": "https://my-addon.anypaas.com",
+    "localBaseUrl": "https://b9764c06.ngrok.io",
     "redisEnv": "REDISCLOUD_URL",
     "port": "$PORT"
   },
